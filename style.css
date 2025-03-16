@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    width: 90%;
+    margin: 30px auto;
+}
+
+header{
+    background-color: black;
+    color: white;
+    margin: 10px 0px;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+header h1{
+    font-size: 54px;
+}
+
+header h3{
+    font-size: 24px;
+    margin: 5px 0px;
+}
+
+header button{
+    border: none;
+    padding: 5px 10px;
+    background-color: orangered;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+header button a{
+    text-decoration: none;
+    color: white;
+}
+
+h2{
+    font-size: 26px;
+    font-weight: 700;
+    margin: 10px 0px;
+}
+
+p{
+    margin-bottom: 10px;
+}
+
+article{
+    margin: 10px 0px;
+}
+
+.skills{
+    display: flex;
+    gap: 4px;
+    margin-bottom: 30px;
+}
+
+.skills>div{
+    padding: 10px;
+    background-color: rgb(104, 32, 221);
+    border-radius: 3px;
+}
+
+.skills div:nth-child(2){
+    background-color: orangered;
+}
+
+ul{
+    list-style: none;
+}
+
+form{
+    width: 260px;
+    margin: 30px 0px;
+    text-align: center;
+}
+
+#contact input,textarea{
+    border: none;
+    border-bottom: 1px solid lightgray;
+    padding: 4px 10px;
+}
+
+#contact div{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px;
+}
+
+#contact #button{
+    background-color: orangered;
+    margin: 10px 0px;
+    border-radius: 3px;
+    padding: 5px 10px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    margin: 10px 0px;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+footer a{
+    color: rgb(0, 204, 255);
+}
+
